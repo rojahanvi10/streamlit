@@ -268,9 +268,9 @@ if st.button("Predict Sentiment"):
     
     predicted_sentiment = lg_model.predict(tfidf_array)[0]
     label_to_sentiment = {
-        0: "irony",
-        1: "regular",
-        2: "sarcasm"
+        0: "Irony",
+        1: "Regular",
+        2: "Sarcasm"
     }
     if predicted_sentiment in label_to_sentiment:
         predicted_sentiment_label = label_to_sentiment[predicted_sentiment]
