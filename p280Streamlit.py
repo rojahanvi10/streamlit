@@ -3,7 +3,7 @@
 
 # In[16]:
 import nltk
-nltk.download('punkt'
+nltk.download('punkt')
 nltk.download('stopwords')
 
 def remove_stopword(x):
