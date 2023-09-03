@@ -5,6 +5,7 @@
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.download('wordnet')
 
 def remove_stopword(x):
     from nltk.corpus import stopwords
