@@ -2,7 +2,8 @@
 # coding: utf-8
 
 # In[16]:
-
+import nltk
+nltk.download('stopwords')
 
 def remove_stopword(x):
     from nltk.corpus import stopwords
