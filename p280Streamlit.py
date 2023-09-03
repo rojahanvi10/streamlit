@@ -240,7 +240,7 @@ if __name__ == "__main__":
 with open('functions.pkl', 'rb') as file:
     loaded_functions = pickle.load(file)
 
-with open('D:\ExcelR Data Science\Project\Sentiment Analysis\lg_model.pkl', 'rb') as model_file,     open('D:\\ExcelR Data Science\\Project\Sentiment Analysis\\tfidf_vectorizer.pkl', 'rb') as vectorizer_file:
+with open('lg_model.pkl', 'rb') as model_file,     open('tfidf_vectorizer.pkl','rb') as vectorizer_file:
     
      lg_model = pickle.load(model_file)
      vectorizer = pickle.load(vectorizer_file)
