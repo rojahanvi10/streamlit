@@ -217,7 +217,7 @@ def set_background(image_file):
 
 
 def main():
-    set_background(r"D:\ExcelR Data Science\Project\Sentiment Analysis\1.jpg")
+    set_background("1.jpg")
     
    
  
