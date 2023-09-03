@@ -274,7 +274,8 @@ if st.button("Predict Sentiment"):
     }
     if predicted_sentiment in label_to_sentiment:
         predicted_sentiment_label = label_to_sentiment[predicted_sentiment]
-        st.write("Predicted Sentiment:", predicted_sentiment_label)
+        #st.write("Predicted Sentiment:", predicted_sentiment_label)
+        st.markdown(f'<p style="font-size:24px; color:red;">Predicted Sentiment: {predicted_sentiment_label}</p>', unsafe_allow_html=True)
         #show_results = True  
     else:
         st.write("Unknown Sentiment Label")
