@@ -2,4 +2,4 @@ pandas
 nltk
 streamlit
 scikit-learn
-nltk.corpus.stopwords.words('english')
+
